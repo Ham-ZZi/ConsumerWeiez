@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/backBtn"
         android:layout_width="23dp"
         android:layout_height="23dp"
         android:layout_marginStart="24dp"
@@ -91,13 +91,13 @@
         android:inputType="phone"
         android:text="연락처"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/sign_upBtn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/sign_upBtn1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
